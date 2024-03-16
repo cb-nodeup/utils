@@ -4,7 +4,7 @@ BLUE='\033[0;34m'     # blue color
 NC="\e[0m"            # no color
 
 function printLogo {
-  bash <(curl -s https://raw.githubusercontent.com/cb-nodeup/utils/main/logo.sh)
+  bash <(curl -s https://raw.githubusercontent.com/nodeup-xyz/utils/main/logo.sh)
 }
 
 function printLine {
